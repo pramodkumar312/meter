@@ -1,0 +1,1924 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+a {
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+h2 {
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.wrapper {
+    max-width: 1100px;
+    width: 100%;
+    margin: auto;
+}
+
+header {
+    width: 100%;
+    float: left;
+    position: relative;
+}
+
+header img {
+    max-width: 20%;
+}
+
+.top-sec {
+    width: 100%;
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'Red Hat Display', sans-serif;
+    
+}
+
+.top-sec-1 {
+    width: 50%;
+    float: left;
+}
+
+.top-sec-2 {
+    width: 50%;
+    float: left;
+}
+
+.top-sec-3 {
+
+    float: left;
+}
+
+.top-sec-3 span {
+    padding-left: 57px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.top-sec-3 p {
+    font-weight: 400;
+}
+
+.top-sec-4 {
+
+    float: right;
+    padding-right: 42px;
+}
+
+.top-sec-4 h3 {
+    padding-left: 37px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.top-sec-2 img {
+    max-width: 35px;
+}
+
+.top1 {
+    position: absolute;
+    top: 27%;
+    left: 65%;
+}
+
+.top2 {
+    width: 100%;
+    float: left;
+    position: absolute;
+    top: 27%;
+    left: 92%;
+}
+
+.top-sec-5 {
+    width: 100%;
+    float: left;
+    background: #bbaacc;
+}
+
+.side-button {
+    border: none;
+    background: transparent;
+
+}
+
+.side-button span {
+    width: 50px;
+    height: 5px;
+    margin: 5px;
+    background: #27c6d7;
+    display: block;
+
+}
+
+.top-sec-5 li {
+    display: inline-block;
+    padding: 8px 22px 8px 22px;
+
+
+}
+
+.top-sec-5 a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+
+}
+
+.home {
+    padding-left: 0px;
+}
+
+.contact {
+    padding-right: 0px;
+}
+
+.top-sec-5 li:hover {
+    background: #0088ff;
+    padding: 8px 22px 8px 22px;
+    display: inline-block;
+}
+
+.main-sec {
+    width: 100%;
+    float: left;
+}
+
+.main-sec {
+    background-image: url("img/p4.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-sec-1 {
+    background: #0088ff;
+    width: 450px;
+}
+
+.main-sec-2 {
+    padding: 70px 40px 55px 40px;
+}
+
+.main-sec-2 p {
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.main-sec-2 h1 {
+    text-transform: capitalize;
+    color: #fff;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.main-sec-2 p {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.main-sec-2 button {
+    background: none;
+    border: none;
+    border: 1px solid #fff;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 700;
+    cursor: pointer;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.main-sec-2 button:hover {
+    color: #bbaacc;
+    background: #0088ff;
+    border: 1px solid #bbaacc;
+}
+
+.about {
+    width: 100%;
+    float: left;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+.about p {
+    max-width: 51%;
+    text-align: center;
+    font-weight: 300;
+    line-height: 1.5;
+    margin-left: auto;
+    margin-right: auto;
+    color: #555;
+    font-style: italic;
+}
+
+.meter-type {
+    width: 100%;
+    float: left;
+
+}
+
+.meter-type-1 {
+    width: 50%;
+    float: left;
+    display: flex;
+}
+
+.meter-type-2 {
+    width: 50%;
+    float: left;
+}
+
+.meter-type-1 {
+    position: relative;
+    margin-bottom: 80px;
+    background-repeat: no-repeat;
+}
+
+.meter-type-1 img {
+    max-width: 100%;
+}
+
+.meter {
+    background: #0088ff;
+    width: 300px;
+    height: auto;
+    position: absolute;
+    bottom: -25px;
+    right: 0;
+}
+
+.meter h3 {
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.meter img {
+    width: 65%;
+    padding-left: 85px;
+    padding-top: 60px;
+}
+
+.meter p {
+    padding: 0px 0px 40px 20px;
+    color: #fff;
+    width: 94%;
+    text-align: center;
+    font-weight: 400;
+}
+
+.meter-type-2 {
+    width: 50%;
+    float: left;
+    padding: 50px 50px 60px 60px;
+}
+
+.meter-type-2 h3 {
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 700;
+    padding-bottom: 30px;
+}
+
+.meter-type-2 p {
+    font-weight: 400;
+    padding-bottom: 25px;
+    line-height: 1.5;
+    font-size: 13px;
+}
+
+.sit-amet {
+
+    font-weight: 400;
+}
+
+.meter-type-2 button {
+    background: #ccc;
+    border: none;
+    border: 1px solid #fff;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 700;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.meter-type-2 button:hover {
+    background: #0088ff;
+    color: #fff;
+
+}
+
+.our-ser {
+    width: 100%;
+    float: left;
+    background: #f7f5fa;
+    text-align: center;
+    margin-bottom: 40px;
+
+}
+
+.our-ser h2 {
+    padding-top: 50px;
+    padding-bottom: 35px;
+
+}
+
+.our-ser p {
+    width: 57%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 13px;
+    padding-bottom: 20px;
+}
+
+.middle {
+    width: 100%;
+    float: left;
+}
+
+.middle img {
+    max-width: 100%;
+
+
+}
+
+.middle-sec {
+    width: 50%;
+    float: left;
+}
+
+.middl {
+    background: #bbaacc;
+    text-align: center;
+    margin-right: 12px;
+    margin-top: -10%;
+    position: relative;
+    z-index: 4;
+}
+
+.middl h2 {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 700;
+    text-transform: capitalize;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.middl p {
+    font-size: 13px;
+    font-weight: 400;
+    padding-bottom: 15px;
+    color: #fff;
+}
+
+.middle-sec-1 {
+    width: 50%;
+    float: right;
+}
+
+.middle-sec img {
+    padding-top: 20px;
+    padding-right: 10px;
+}
+
+.middle-sec-1 img {
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+.middl-1 {
+    margin-left: 12px;
+    background: #bbaacc;
+    text-align: center;
+    margin-top: -10%;
+    position: relative;
+    z-index: 4;
+}
+
+.middl-2 {
+    margin-left: 10px;
+    background: #bbaacc;
+    text-align: center;
+    margin-top: -10%;
+    position: relative;
+    z-index: 4;
+}
+
+.middl-2 h2 {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 700;
+    text-transform: capitalize;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.middl-2 p {
+    font-size: 13px;
+    font-weight: 400;
+    padding-bottom: 15px;
+    color: #fff;
+}
+
+.middl-1 p {
+    font-size: 13px;
+    font-weight: 400;
+    padding-bottom: 15px;
+    color: #fff;
+}
+
+.middl-1 h2 {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 700;
+    text-transform: capitalize;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.lorem-ipsum {
+    width: 100%;
+    float: left;
+    text-align: center;
+    padding-top: 50px;
+
+}
+
+.lorem-ipsum p {
+    font-weight: 400;
+}
+
+.lorem-ipsum h2 {
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+
+.main {
+    width: 100%;
+    float: left;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 60px;
+}
+
+.main-1 {
+    width: 33.33%;
+    float: left;
+
+}
+
+.lorem-ipsum p {
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main-1 h5 {
+    font-size: 18px;
+    font-weight: 700;
+    padding-top: 20px;
+}
+
+.main-1 p {
+    padding-top: 15px;
+    font-weight: 400;
+}
+
+.ready {
+    width: 100%;
+    float: left;
+    text-align: center;
+    background: #0088ff;
+    color: #fff;
+}
+
+.start {
+    width: 100%;
+    float: left;
+    text-align: center;
+    padding: 70px 0px 70px 0px;
+}
+
+.start h2 {
+    font-weight: 700;
+    font-size: 32px;
+
+}
+
+.start p {
+    max-width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 13px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.start button {
+    background: #fff;
+    border: 1px solid #fff;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    color: #000;
+    font-weight: 700;
+    cursor: pointer;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.start button:hover {
+    background: #bbaacc;
+    border: none;
+    padding: 10px 20px;
+    border: 1px solid #bbaacc;
+}
+
+.bottom {
+    width: 100%;
+    float: left;
+}
+
+.bottom-1 {
+    width: 50%;
+    float: left;
+}
+
+.bottom-2 h2 {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    font-weight: 700;
+}
+
+.bottom-3 {
+    width: 100%;
+    position: relative;
+    line-height: 0;
+    border-bottom: 2px solid #f6f6f6;
+    display: inline-block;
+    margin-right: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.wrep {
+    width: 50%;
+    float: left;
+}
+
+.wrep1 {
+    width: 50%;
+    float: left;
+}
+
+.wrep {
+    width: 20%;
+    float: left;
+}
+
+.wrep1 {
+    width: 80%;
+    float: left;
+}
+
+.wrep1 span {
+    display: block;
+    padding-top: 56px;
+}
+
+b.b {
+    text-transform: capitalize;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 400;
+    color: #555;
+    font-size: 18px;
+}
+
+.bottom-4 {
+    clear: both;
+    padding-top: 38px;
+}
+
+.bottom-4 p {
+    width: 88%;
+    padding-right: 45px;
+    font-weight: 400;
+    color: #555;
+    line-height: 1.5;
+}
+
+.bottom-sec-2 {
+    width: 50%;
+    float: left;
+    background: #f5f7fa;
+}
+
+.get {
+    padding-top: 70px;
+    padding-left: 50px;
+    padding-bottom: 35px;
+}
+
+.form-submit {
+    padding-left: 50px;
+}
+
+input[type="text"] {
+    width: 70%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    border: none;
+    background: #fff;
+    margin-bottom: 19px;
+}
+
+input.input {
+    padding-bottom: 80px;
+}
+
+.form-submit p {
+    padding-bottom: 20px;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.form-submit button {
+    padding: 10px 50px 10px 50px;
+    background: #0088ff;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.form-submit button:hover {
+    color: #000;
+    background: #bbaacc;
+}
+
+.contact-type {
+    width: 100%;
+    float: left;
+    background: #bbaacc;
+    clear: both;
+}
+
+.contact-type-1 {
+    width: 1;
+    width: 100%;
+    float: left;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.contact-type-1 li {
+    display: inline-block;
+    padding: 0px 15px 0px 15px;
+}
+
+.contact-type-2 {
+    width: 100%;
+    float: left;
+    text-align: left;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.contact-type-2 ul li {
+    display: inline-block;
+}
+
+.contact-type-2 a {
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 0px 12px 0px 12px;
+    color: #fff;
+    font-weight: 700;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.contact-type-2 a:hover {
+    color: #aabbcc;
+    background: #0088ff;
+    padding: 8px 12px;
+    text-align: center;
+}
+
+.contact-type-3 {
+    width: 100%;
+    float: left;
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 15px;
+    border-top: 1px solid #ccc;
+}
+
+.c {
+    border: 1px solid #fff;
+    border-radius: 50%;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.contact-type-3 p {
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.start-anim {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+.slide {
+    width: 15%;
+    padding-top: 20px;
+    padding: 30px;
+    position: absolute;
+    top: 100%;
+    right: 7px;
+    background: #bbaacc;
+    display: none;
+}
+
+.main-sec-2 {
+    position: relative;
+}
+
+.start-anim {
+    width: 200px;
+    height: 100px;
+    background: #27c6d7;
+    position: absolute;
+    top: 89%;
+    left: 9%;
+    text-align: center;
+}
+
+.start-anim li {
+    display: inline-block;
+    padding: 10px;
+}
+
+body {
+    position: relative;
+}
+
+.btn10 {
+    display: none;
+    background: transparent;
+    border: none;
+
+    position: absolute;
+    top: 85px;
+    right: 10px;
+}
+
+.btn10 span {
+    background: red;
+    width: 30px;
+    height: 5px;
+    margin: 5px;
+    border-radius: 0;
+    display: block;
+    border: none;
+}
+@media only screen and (max-width:  992px){
+    .top-sec{
+        position: relative;
+    }
+    .top-sec-1 {
+        padding-left: 20px;
+    }
+
+
+    .top-sec-1 {
+        width: 40%;
+        float: left;
+    }
+
+    .top-sec-2 {
+        width: 60%;
+        float: left;
+    }
+
+    .top-sec-3 {
+        float: left;
+        padding-right: 104px;
+    }
+
+    .top-sec-3 span {
+        padding-left: 35px;
+        font-weight: 700;
+        font-size: 18px;
+    }
+
+    .top-sec-3 p {
+        font-weight: 400;
+        font-size: 14px;
+    }
+
+    .btn10 {
+        display: block;
+    }
+
+    .top-sec-5 {
+        width: 48.4%;
+        float: left;
+        margin-left: 20px;
+    }
+
+    .top-sec-5 li {
+        list-style: none;
+        padding-left: 20px;
+    }
+
+    .top-sec-5,
+    .home {
+        padding-left: 20px;
+    }
+
+    .top1 {
+        width: 100%;
+        float: left;
+        position: absolute;
+        top: 28%;
+        left: 60%;
+        padding-left: 10px;
+    }
+
+    .top-sec-2 img {
+
+        max-width: 45px;
+    }
+
+    .top-sec-4 {
+        float: right;
+        padding-right: 50px;
+    }
+
+    .top-sec-4 h3 {
+        padding-left: 30px;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 18px;
+    }
+
+    .top-sec-4 p {
+        font-size: 14px;
+    }
+
+    .top2 {
+        width: 100%;
+        float: left;
+        position: absolute;
+        top: 28%;
+        left: 76%;
+        padding-left: 10px;
+    }
+
+    .top-sec-5 {
+        position: relative;
+    }
+
+    button.side-button {
+        display: block;
+        position: absolute;
+        top: 30%;
+        right: 20%;
+    }
+
+    .top-sec-5 li {
+        width: 50%;
+        padding: 8px 0px 8px 0px;
+        display: none;
+    }
+
+    li.home {
+        padding-left: 20px;
+    }
+
+    .main-sec-2 h1 {
+        text-transform: capitalize;
+        color: #fff;
+        font-size: 40px;
+        font-weight: 400;
+    }
+
+    .main-sec-2 p {
+        color: #fff;
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    .main-sec-1 {
+        background: #0088ff;
+        width: 380px;
+        margin-left: 20px;
+    }
+
+    .bottom-2 {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .form-submit p {
+        padding-bottom: 20px;
+        font-weight: 400;
+        width: 73%;
+    }
+
+    .contact-type-2 a {
+        text-decoration: none;
+        text-transform: uppercase;
+        padding: 0px 6px 0px 6px;
+        color: #fff;
+        font-size: 12px;
+        font-weight: 700;
+        font-family: 'Red Hat Display', sans-serif;
+    }
+
+    .main-1 p {
+        padding-top: 15px;
+        font-weight: 400;
+        font-size: 14px;
+    }
+
+    .start h2 {
+        font-weight: 700;
+        font-size: 30px;
+    }
+
+    .meter-type-2 p {
+        font-weight: 400;
+        padding-bottom: 10px;
+        font-size: 14px;
+        line-height: 1.5;
+    }
+
+    .meter-type {
+        width: 100%;
+        float: left;
+        margin-bottom: 30px;
+    }
+
+    .meter-type-2 h3 {
+        text-transform: uppercase;
+        font-size: 24px;
+        font-weight: 700;
+        padding-bottom: 20px;
+    }
+
+    .meter-type-2 button {
+        background: #ccc;
+        border: none;
+        border: 1px solid #fff;
+        padding: 8px 16px;
+        text-transform: uppercase;
+        font-family: 'Red Hat Display', sans-serif;
+        font-weight: 700;
+        cursor: pointer;
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+
+    .meter p {
+        padding: 0px 0px 40px 20px;
+        color: #fff;
+        width: 100%;
+        font-size: 14px;
+        text-align: center;
+        font-weight: 400;
+    }
+
+    .meter h3 {
+        text-align: center;
+        padding: 20px;
+        color: #fff;
+        font-weight: 700;
+        font-size: 22px;
+    }
+
+    .middl p {
+        font-size: 12px;
+        font-weight: 400;
+        padding-bottom: 15px;
+        color: #fff;
+        text-align: center;
+
+    }
+    .middl-1 p{
+        font-size: 12px;
+    }
+    .middl-2 p{
+        font-size:12px;
+    }
+}
+
+@media only screen and (max-width: 780px) {
+    .top-sec-1 {
+        width: 30%;
+        float: left;
+    }
+
+    .top-sec {
+        position: relative;
+    }
+
+    .top-sec-5 a {
+        text-decoration: none;
+        color: #fff;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 12px;
+    }
+
+    .top-sec-3 p,
+    span {
+        display: none;
+    }
+
+    .top-sec-4 h3 {
+        display: none;
+    }
+    .top-sec-4 p{
+        display: none;
+    }
+
+    header img {
+        max-width: 40%;
+    }
+
+    .btn10 {
+        display: block;
+    }
+
+    .middl-1 {
+        margin-left: 0px;
+
+    }
+
+    .top-sec-2 {
+        width: 70%;
+        float: left;
+    }
+
+    .top-sec-3 {
+        float: left;
+        padding-right: 0px;
+    }
+
+    .top-sec-3 span {
+        padding-left: 35px;
+        font-weight: 700;
+        font-size: 14px;
+    }
+
+    .top-sec-3 p {
+        padding-right: 10px;
+        font-weight: 400;
+        font-size: 12px;
+    }
+
+    .top1 {
+        width: 100%;
+        float: left;
+        position: absolute;
+        top: 30%;
+        left: 49%;
+    } 
+    .top2 {
+        position: absolute;
+        top: 30%;
+        left: 85%;
+    }
+
+
+    .main-sec-1 {
+        background: #0088ff;
+        width: 250px;
+        margin-left: 20px;
+    }
+
+    .main-sec-2 {
+        padding: 30px 30px 30px 30px;
+    }
+
+    .main-sec-2 h1 {
+        text-transform: capitalize;
+        color: #fff;
+        font-size: 27px;
+        font-weight: 400;
+    }
+
+    .main-sec-2 p {
+        color: #fff;
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    .main-sec-2 button {
+        background: none;
+        border: none;
+        border: 1px solid #fff;
+        padding: 8px 18px;
+        text-transform: uppercase;
+        color: #fff;
+        font-weight: 700;
+        font-size: 11px;
+        cursor: pointer;
+        font-family: 'Red Hat Display', sans-serif;
+    }
+
+    .about {
+        width: 100%;
+        float: left;
+        padding: 50px;
+    }
+
+    .about p {
+        max-width: 100%;
+        text-align: center;
+        font-weight: 300;
+        line-height: 1.5;
+        color: #555;
+        font-size: 14px;
+    }
+
+    .meter {
+        background: #0088ff;
+        width: 240px;
+        height: auto;
+        position: absolute;
+        right: 0;
+        bottom: -25%;
+
+    }
+
+    .meter img {
+        width: 68%;
+        padding-left: 80px;
+        padding-top: 30px;
+    }
+
+    .meter-type-2 h3 {
+        text-transform: uppercase;
+        font-size: 22px;
+        font-weight: 700;
+        padding-bottom: 15px;
+    }
+
+    .meter-type-2 p {
+        font-weight: 400;
+        padding-bottom: 10px;
+        width: 100%;
+        font-size: 13px;
+        line-height: 1.5;
+        display: none;
+    }
+
+    .meter-type-2 button {
+        background: #ccc;
+        border: none;
+        border: 1px solid #fff;
+        padding: 8px 16px;
+        font-size: 12px;
+        text-transform: uppercase;
+        font-family: 'Red Hat Display', sans-serif;
+        font-weight: 700;
+        cursor: pointer;
+        margin-top: 0px;
+        margin-bottom: 30px;
+    }
+
+    .our-ser h2 {
+        padding-top: 30px;
+        padding-bottom: 20px;
+        font-size: 24px;
+    }
+
+    .our-ser p {
+        text-align: center;
+        padding-bottom: 20px;
+        font-size: 14px;
+    }
+
+    .middle-sec {
+        width: 100%;
+        float: left;
+    }
+
+    .middl {
+        background: #bbaacc;
+        text-align: center;
+        margin-top: -10%;
+        position: relative;
+
+    }
+
+    .middle-sec img {
+        padding-top: 15px;
+    }
+
+    .middle-sec-1 {
+        width: 100%;
+        float: right;
+    }
+
+    .middle-sec-1 img {
+        padding-top: 15px;
+
+    }
+
+    .middl {
+        background: #bbaacc;
+        text-align: center;
+        margin-top: -10%;
+        position: relative;
+        margin-right: 2px;
+    }
+
+    .middl-2 {
+        margin-left: 0px;
+        background: #bbaacc;
+        text-align: center;
+        margin-top: -10%;
+        position: relative;
+        z-index: 4;
+    }
+
+    .middl-1 h2 {
+        font-size: 18px;
+        color: #fff;
+        font-weight: 700;
+        text-transform: capitalize;
+        padding-top: 13px;
+        padding-bottom: 10px;
+    }
+
+    .lorem-ipsum h2 {
+        font-weight: 700;
+        font-size: 24px;
+    }
+
+    .start p {
+        padding-top: 25px;
+        padding-bottom: 20px;
+        font-weight: 400;
+        max-width: 71%;
+        margin-left: auto;
+        font-size: 13px;
+        margin-right: auto;
+    }
+
+    .middle-sec-1 img {
+        padding-left: 0;
+
+    }
+
+    .middle-sec img {
+        padding-right: 0px;
+    }
+
+    .main-1 p {
+        padding-top: 15px;
+        font-weight: 400;
+        font-size: 13px;
+    }
+
+    .main-1 h5 {
+        font-size: 16px;
+        font-weight: 700;
+        padding-top: 20px;
+    }
+
+    .start h2 {
+        font-weight: 700;
+        font-size: 24px;
+    }
+
+    .start p {
+        padding-top: 25px;
+        padding-bottom: 20px;
+        font-weight: 400;
+        width: 100%;
+    }
+
+    .main {
+        width: 100%;
+        float: left;
+        text-align: center;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .start button:hover {
+        background: #bbaacc;
+        border: none;
+        padding: 8px 16px;
+        border: 1px solid #bbaacc;
+    }
+
+    .bottom-2 h2 {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        font-weight: 700;
+        font-size: 24px;
+    }
+
+    .bottom-1 {
+        width: 100%;
+        float: left;
+        padding-bottom: 30px;
+    }
+
+    .bottom-2 {
+        padding-left: 35px;
+        padding-right: 10px;
+    }
+
+    .bottom h2 {
+        clear: both;
+        padding-top: 60px;
+    }
+
+    .bottom-4 p {
+        width: 99%;
+        font-weight: 400;
+        color: #555;
+        font-size: 14px;
+        line-height: 1.5;
+    }
+
+    .get h2 {
+        font-size: 24px;
+
+    }
+
+    .form-submit p {
+        padding-bottom: 20px;
+        font-weight: 400;
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .get {
+        padding-top: 50px;
+        padding-left: 35px;
+        padding-bottom: 35px;
+    }
+
+    .bottom-sec-2 {
+        width: 100%;
+        float: left;
+        background: #f5f7fa;
+    }
+
+    .form-submit button:hover {
+        color: #000;
+        background: #bbaacc;
+        font-size: 12px;
+    }
+
+    .contact-type-2 {
+        width: 100%;
+        float: left;
+        text-align: left;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        background: cadetblue;
+    }
+
+    .contact-type-2 a {
+        text-decoration: none;
+        text-transform: uppercase;
+        padding: 8px;
+        color: #fff;
+        font-size: 14px;
+        font-weight: 700;
+        font-family: 'Red Hat Display', sans-serif;
+    }
+
+    .contact-type-2 ul li {
+        display: block;
+        max-width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        line-height: 2;
+
+
+    }
+}
+
+@media only screen and (max-width: 580px) {
+
+    .top-sec-1 {
+        width: 25%;
+        float: left;
+    }
+
+    header img {
+        max-width: 60%;
+    }
+
+    .top-sec-2 {
+        width: 75%;
+        float: left;
+    }
+
+    .top-sec-3 {
+        float: left;
+        padding-right: 0px;
+    }
+
+    .top-sec-3 span {
+        padding-left: 35px;
+        font-weight: 700;
+        font-size: 13px;
+    }
+
+    .top-sec-3 p {
+        padding-right: 10px;
+        font-weight: 400;
+        font-size: 12px;
+    }
+
+    .top-sec-2 img {
+        max-width: 30px;
+    }
+
+    .top-sec-3 p {
+        display: none;
+    }
+
+    .top-sec-3 span {
+        display: none;
+    }
+
+    .top-sec-5 {
+        position: relative;
+        display: block;
+    }
+
+    .top-sec-4 {
+        float: right;
+        padding-right: 35px;
+    }
+
+    .top-sec-4 h3 {
+        display: none;
+    }
+
+    .top-sec-4 p {
+        display: none;
+    }
+
+    .top1 {
+        width: 100%;
+        float: left;
+        position: absolute;
+        top: 35%;
+        left: 54%;
+    }
+
+    .top2 {
+        width: 100%;
+        float: left;
+        position: absolute;
+        top: 35%;
+        left: 85%;
+    }
+
+    .btn10 {
+        display: block;
+    }
+
+    .top-sec-2 img {
+        max-width: 45px;
+    }
+
+
+    .main-sec-1 {
+        background: #0088ff;
+        width: 230px;
+        margin-left: 20px;
+    }
+
+    .main-sec-2 {
+        padding: 25px;
+    }
+
+    .main-sec-2 h1 {
+        text-transform: capitalize;
+        color: #fff;
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+    .main-sec-2 p {
+        color: #fff;
+        font-size: 12px;
+        font-weight: 400;
+    }
+
+    .main-sec-2 button {
+        background: none;
+        border: none;
+        border: 1px solid #fff;
+        padding: 7px 16px;
+        text-transform: uppercase;
+        color: #fff;
+        font-weight: 700;
+        font-size: 10px;
+        cursor: pointer;
+        font-family: 'Red Hat Display', sans-serif;
+    }
+
+    .about p {
+        max-width: 100%;
+        text-align: center;
+        font-weight: 300;
+        line-height: 1.5;
+        color: #555;
+        font-size: 12px;
+    }
+
+    .top-sec {
+        width: 100%;
+        float: left;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-family: 'Red Hat Display', sans-serif;
+        position: relative;
+    }
+
+    .top-sec-5 li {
+        width: 50%;
+        padding: 8px 0px 0px 0px;
+        display: none;
+    }
+
+    .top-sec-5 a {
+        text-decoration: none;
+        color: #fff;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 12px;
+    }
+
+    .meter img {
+        width: 68%;
+        padding-left: 50px;
+        padding-top: 25px;
+    }
+
+    .meter p {
+        padding: 0px 0px 40px 20px;
+        color: #fff;
+        width: 100%;
+        font-size: 12px;
+        text-align: center;
+        font-weight: 400;
+    }
+
+    .meter h3 {
+        text-align: center;
+        padding: 15px;
+        color: #fff;
+        font-weight: 700;
+        font-size: 16px;
+    }
+
+    .meter-type-2 {
+        width: 50%;
+        float: left;
+        padding: 25px 20px 25px 20px;
+    }
+
+    .meter-type-2 h3 {
+        text-transform: uppercase;
+        font-size: 20px;
+        font-weight: 700;
+        padding-bottom: 15px;
+    }
+
+    .meter-type-2 p {
+        font-weight: 400;
+        padding-bottom: 10px;
+        width: 100%;
+        font-size: 12px;
+        line-height: 1.5;
+    }
+
+    .meter-type-2 button {
+        padding: 8px 16px;
+        font-size: 11px;
+        margin-top: 20px;
+    }
+
+    .our-ser h2 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-size: 20px;
+    }
+
+    .middl-2 {
+        margin-left: 0px;
+    }
+
+    .middl-1 {
+        margin-left: 0px;
+    }
+
+    .our-ser p {
+        text-align: center;
+        padding-bottom: 20px;
+        font-size: 13px;
+    }
+
+    .middl h2 {
+        font-size: 16px;
+        color: #fff;
+        font-weight: 700;
+        text-transform: capitalize;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .middl p {
+        font-size: 12px;
+        font-weight: 400;
+        padding-bottom: 15px;
+        color: #fff;
+        text-align: center;
+    }
+
+    .middl-2 h2 {
+        font-size: 16px;
+        color: #fff;
+        font-weight: 700;
+        text-transform: capitalize;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .middl-2 p {
+        font-size: 12px;
+        font-weight: 400;
+        padding-bottom: 15px;
+        color: #fff;
+    }
+
+    .top1 {
+        width: 100%;
+        float: left;
+        position: absolute;
+        top: 35%;
+        left: 54%;
+    }
+
+    .meter {
+        background: #0088ff;
+        width: 170px;
+        height: auto;
+        position: absolute;
+        right: 0;
+        bottom: -25%;
+    }
+
+    .middl {
+        background: #bbaacc;
+        text-align: center;
+        margin-top: -10%;
+        position: relative;
+        margin-right: 0;
+    }
+
+    .get {
+        padding-top: 50px;
+        padding-left: 50px;
+        padding-bottom: 35px;
+    }
+
+    .form-submit p {
+        padding-bottom: 20px;
+        font-weight: 400;
+        width: 100%;
+        font-size: 12px;
+    }
+
+    .contact-type-1 {
+        width: 100%;
+        float: left;
+        padding-top: 40px;
+        padding-left: 30px;
+    }
+
+    .contact-type-2 ul li {
+        display: block;
+        padding-left: 50px;
+
+    }
+
+    .contact-type-2 {
+        background: #0088ff;
+    }
+
+    .meter-type-2 p {
+        display: none;
+    }
+
+    .lorem-ipsum h2 {
+        font-weight: 700;
+        font-size: 20px;
+    }
+
+    .lorem-ipsum p {
+        max-width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 12px;
+    }
+
+    .main-1 {
+        width: 100%;
+        float: left;
+        padding-bottom: 20px;
+    }
+
+    .start h2 {
+        font-weight: 700;
+        font-size: 20px;
+    }
+
+    .start p {
+        padding-top: 25px;
+        padding-bottom: 20px;
+        font-weight: 400;
+        max-width: 85%;
+        font-size: 12px;
+    }
+
+    .start button {
+        background: #fff;
+        border: 1px solid #fff;
+        padding: 8px 16px;
+        text-transform: uppercase;
+        color: #000;
+        font-weight: 700;
+        font-size: 12px;
+        cursor: pointer;
+        font-family: 'Red Hat Display', sans-serif;
+    }
+
+    .bottom-2 h2 {
+        padding-bottom: 50px;
+        font-weight: 700;
+        font-size: 20px;
+    }
+
+    .wrep1 span {
+        display: block;
+        padding-top: 50px;
+        font-size: 12px;
+    }
+
+    b.b {
+        text-transform: capitalize;
+        font-family: 'Red Hat Display', sans-serif;
+        font-weight: 400;
+        color: #555;
+        font-size: 16px;
+    }
+
+    .bottom-4 p {
+        max-width: 100%;
+        font-weight: 400;
+        color: #555;
+        font-size: 12px;
+        line-height: 1.5;
+    }
+
+    .get h2 {
+        font-size: 20px;
+    }
+
+}
+@media only screen and (max-width: 410px) {
+    header img {
+        max-width: 55%;
+    }
+    .top1{
+        position:absolute;
+        top:0%;
+        left:54%;
+    }
+    .top2 {
+        width: 100%;
+        float: left;
+        position: absolute;
+        top: 0%;
+        left: 85%;
+    }
+    .top-sec-2 img {
+        max-width: 35px;
+    }
+    .meter img {
+        width: 55%;
+        padding-left: 50px;
+        padding-top: 25px;
+    }
+    .meter h3 {
+        text-align: center;
+        padding: 10px;
+        color: #fff;
+        font-weight: 700;
+        font-size: 14px;
+    }
+    .meter p {
+        padding: 0px 0px 30px 10px;
+        color: #fff;
+        width: 100%;
+        font-size: 12px;
+        text-align: center;
+        font-weight: 400;
+    }
+    h2 {
+        font-size: 16px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+    .wrep1 span {
+        display: block;
+        padding-top: 37px;
+        font-size: 12px;
+    }
+    input[type="text"] {
+        width: 80%;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 15px;
+        border: none;
+        background: #fff;
+        margin-bottom: 19px;
+    }
+    .form-submit p {
+        padding-bottom: 20px;
+        font-weight: 400;
+        max-width: 77%;
+        font-size: 12px;
+    }
+    .contact-type-2 ul li {
+        display: block;
+    }
+    .contact-type-2 a {
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #fff;
+        font-size: 12px;
+        font-weight: 700;
+        font-family: 'Red Hat Display', sans-serif;
+    }
+
+ }
